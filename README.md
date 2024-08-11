@@ -43,7 +43,7 @@ sudo apt-get install ros-noetic-turtlebot3-gazebo
 
 ## Creating a Map (SLAM)
 
-## Step 3: Launch the TurtleBot in Gazebo
+### Step 3: Launch the TurtleBot in Gazebo
 
 Open a terminal and launch the TurtleBot in the Gazebo simulation environment:
 
@@ -51,7 +51,7 @@ Open a terminal and launch the TurtleBot in the Gazebo simulation environment:
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 
-## Step 4: Launch the SLAM Node
+### Step 4: Launch the SLAM Node
 
 In another terminal, launch the SLAM node to begin mapping:
 
@@ -59,7 +59,7 @@ In another terminal, launch the SLAM node to begin mapping:
 roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ```
 
-## Step 5: Control the TurtleBot to Create the Map
+### Step 5: Control the TurtleBot to Create the Map
 
 Open a new terminal and launch the teleoperation node to control the TurtleBot using the keyboard:
 
@@ -77,7 +77,7 @@ Use the following keys to control the TurtleBot:
 
 Move the TurtleBot around to map the environment.
 
-## Step 6: Save the Map
+### Step 6: Save the Map
 
 Once finished mapping, save the map by opening a new terminal and running:
 
